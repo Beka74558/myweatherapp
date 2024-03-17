@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("https://images.pexels.com/photos/3783385/pexels-photo-3783385.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    align-items: center;
+}
+
+.weather-container {
+    max-width: 600px;
+    height: 500px;
+    margin: 50px auto;
+    position: relative;
+    text-align: center;
+    background-color: green;
+    background: rgba(0,100,0, .30);
+    padding: 20px;
+}
+
+.weather-info {
+    display: flex;
+
+    justify-content: center;
+}
+
+
+.weather-image {
+    font-size: 50px;
+    margin-right: 20px;
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+.weather-info .temperature {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.weather-info .pressure {
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+
